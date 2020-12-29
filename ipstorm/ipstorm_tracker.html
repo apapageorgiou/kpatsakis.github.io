@@ -142,6 +142,26 @@
       The above reflect only the author’s view and the Commission is not responsible for any use that may be made of the information it contains.
     </center>
   </footer>
+    
+  <script type="text/javascript">
+    $(document).ready(function(e) {
+      $('#test').scrollToFixed();
+      $('.res-nav_click').click(function() {
+        $('.main-nav').slideToggle();
+        return false
+
+      });
+
+    });
+  </script>
+
+  <script>
+    wow = new WOW({
+      animateClass: 'animated',
+      offset: 100
+    });
+    wow.init();
+  </script>   
 
   <script type="text/javascript">
     $(window).load(function() {
